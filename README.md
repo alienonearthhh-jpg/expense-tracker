@@ -1,6 +1,6 @@
 # 💸 Expense Tracker
 
-A single-page web application that helps users monitor and categorize their personal spending.
+A single-page web application that helps users monitor and categorisee their personal spending.
 
 ## Problem Statement
 
@@ -47,4 +47,4 @@ expense-tracker/
 
 ## Challenges Overcome
 
-Setting up MySQL on macOS proved unexpectedly complex due to a conflict between two installations — one via the official installer and one via Homebrew. This was resolved by uninstalling both and performing a clean Homebrew install with no root password for local development. Configuring CORS between FastAPI and the React dev server required adding CORSMiddleware to allow all origins during development. Ensuring the SQLModel table was created automatically on startup removed the need for manual SQL migration steps, simplifying the development workflow.
+Setting up MySQL on macOS proved unexpectedly complex due to a conflict between two installations, one via the official installer and one via Homebrew. This was resolved by uninstalling both and performing a clean Homebrew install with no root password for local development. Configuring CORS between FastAPI and the React dev server required adding CORSMiddleware to allow all origins during development. Ensuring the SQLModel table was created automatically on startup removed the need for manual SQL migration steps, simplifying the development workflow.
